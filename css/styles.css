@@ -182,5 +182,82 @@ nav {
     width: 120px;
     height: 120px;
     border-radius: 50%;
+    background-color: #b879ee;
+    color: #FFF;
+    text-align: center;
+    line-height: 120px;
+    margin: 0 auto -50px;
+    font-size: 18px;
+    position: relative;
+}
+
+.plan .plan-name {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFF;
+    background-color: #202b34;
+    padding: 50px 0;
+    border-radius: 20px 20px 0 0;
+}
+
+.plan .plan-btn {
+    background-color: #b879ee;
+    color: #FFF;
+    font-size: 24px;
+    height: 75px;
+    line-height: 75px;
+    cursor: pointer;
+    border-radius: 0 0 20px 20px;
+}
+
+.plan .recommended {
     background-color: #FF914D;
 }
+
+/* search */
+.search-container {
+    background-color: #111111;
+    text-align: center;
+    padding: 5rem 0;
+}
+
+.search-container h2 {
+    color: #FFF;
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.search-container p {
+    color: #d5d5d5;
+    font-size: 24px;
+    margin-bottom: 25px;
+}
+
+.search-container input {
+    display: block;
+    border: none;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.search-container input[type="text"] {
+    width: 60%;
+    padding: 16px;
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.search-container input[type="submit"] {
+    background-color: #FF914D;
+    padding: 15px 30px;
+    color: #FFF;
+    font-size: 18px;
+    cursor: pointer;
+    opacity: .9;
+}
+
+.search-container input[type="submit"]:hover {
+    opacity: 1;
+}
+
