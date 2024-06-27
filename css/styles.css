@@ -348,14 +348,42 @@ footer {
 /* celular 576px */
 @media (max-width: 576px) {
 
+    html,
+    body {
+        overflow-x: hidden;
+    }
+
+    .navbar-items li {
+        font-size: 12px;
+        margin-left: 10px;
+    }
+
+    .main-banner p {
+        padding: 0 2rem;
+    }
+
+    .services-container ul {
+        flex-direction: column;
+    }
+
     .plans-container {
         flex-direction: column;
         width: 100%;
+        padding: 0 2rem;
     }
 
     .plan {
         width: 100%;
         max-width: 100%;
+        margin-bottom: 15px;
+    }
+
+    .search-container h2 {
+        font-size: 28px;
+    }
+
+    .search-container input[type="text"] {
+        width: 100%;
     }
 
     .contact-container {
@@ -367,5 +395,22 @@ footer {
         width: 100%;
         margin: 10px 0;
     }
+
+}
+
+/* celular 375px */
+@media (max-width: 576px) {
+    .navbar-items li {
+        font-size: 10px;
+        margin-left: 5px;
+    }
+
+.main-banner h1 {
+    font-size: 36px;
+}
+
+.main-banner p {
+    font-size: 24px;
+}
 
 }
